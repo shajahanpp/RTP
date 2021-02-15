@@ -1,0 +1,41 @@
+{
+   "request":{
+
+      "method":"POST",
+
+      "header":[],
+
+      "body":{
+  "username": "$username",
+  "password": "$password",
+  "paymentInfoSignature": "$paymentInfo",
+  "additionalUserInfo": {
+    "email": "$email",
+    "firstName": "$firstName",
+    "lastName": "$lastName",
+    "mobileNumber": "7767676565",
+    "address": {
+      "addressLine1": "$addressLine1",
+      "addressLine2": "Richmond",
+      "town": "London",
+      "country": "$country",
+      "postCode": "TW3 1NJ"
+    }
+  },
+  "paymentInfo": {
+    "paymentOptions": [
+      {
+        "paymentOption": {},
+        "auditInfo": {
+          "verifiedBy": "John",
+          "verificationDateTime": "2017-07-21T17:32:28Z"
+        }
+      }
+    ]
+  }
+},
+      "url":"https://repository1.rtp.fasterpaymentsdemo.co.uk/apis/requesttopay/v1.0.1/app/user"
+
+   }
+
+}

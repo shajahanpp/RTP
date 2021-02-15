@@ -1,0 +1,4 @@
+{
+  "validationStatus" : "FAILED",
+  "differenceList" : [ "Invalid Node Hierarchy : '$.pid'", "Node : $..additionalUserInfo.email Expected Value : carol@gmail.com  ; Actual Value : []", "Node : $..additionalUserInfo.address.country Expected Value : UK  ; Actual Value : []" ]
+}

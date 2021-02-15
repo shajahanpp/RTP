@@ -1,0 +1,46 @@
+pipelineConfiguration: 
+  jenkins: 
+    credential: ExtendedReport
+    domainFolder: UK-I-PaaS
+    project: UK-I-PaaS
+  bitbucket:
+    credential: BBExtendedReport
+    credentialAPI: bitbucket-cred-api
+    project: TEP
+    repository: 005_04_PCOTableValidation
+  openshift: 
+    projectName: testenablement
+    projectDescription: Test Enablement Microservices
+    applicationName: TableValidation
+    timeoutOperations: 1920
+    membership:
+      - 
+        rolename: admin
+        users: 
+          - C19256A@uk.experian.local
+          - C51575A@uk.experian.local
+          - C67631A@uk.experian.local
+          - C64431A@uk.experian.local
+          - C65025A@uk.experian.local
+          - C63745A@uk.experian.local
+    envAlias:
+      dev: dev      
+  java:
+    mavenSettings: MavenSettings
+    contextDir: .
+  notification: 
+    teams: true
+    mail: false
+    urlTeamsWebhook: https://outlook.office.com/webhook/302a6bd1-c037-43ab-a2cd-5503a7c62bfd@be67623c-1932-42a6-9d24-6c359fe5ea71/JenkinsCI/35cf4016cf644016b66f7189b911bffe/809ac544-a94c-4b60-b5cc-5db7af80fbb6
+  artifactory:
+    credential: TE_Microservice
+    project : TestEnablement-mvn
+  veracode:
+    credential: veracode-api-user
+    includesPattern: "**/**.jar"
+    excludesPattern: "**/spring-boot-**.jar, **/selenium-java-3.12.0.jar"
+    disabled: true
+  custom: 
+    inputParams: true
+    inputParamsFile: ./customParameters.groovy
+    flow: false

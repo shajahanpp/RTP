@@ -1,0 +1,22 @@
+{
+  "request" : {
+    "method" : "POST",
+    "header" : [ {
+      "Content-Type" : "x-www-form-urlencoded"
+    }, {
+      "xform-grant_type" : "password"
+    }, {
+      "xform-scope" : "write"
+    }, {
+      "xform-username" : "adam"
+    }, {
+      "xform-password" : "summer20"
+    }, {
+      "xform-client_assertion_type" : "jwt-bearer"
+    }, {
+      "xform-client_assertion" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsInVzZXJuYW1lIjoiYWRhbSIsImtpZCI6IkIyOjk2OjBEOkEyOjY3OjRBOjI1OjU5OkJFOjlBOkM4OkI3OkUzOkIxOjA1OjZEOjFCOkNDOjUwOjQwIn0.eyJpc3MiOiJBNzAwNTMxMSIsImF1ZCI6Imh0dHBzOi8vcmVwb3NpdG9yeTEucnRwLmZhc3RlcnBheW1lbnRzZGVtby5jby51ayIsImlhdCI6MTU1MTM2NDkxNiwiZXhwIjoxNjUwOTMxMjAwfQ.g1WKprUxCDswxGlG3cw8dO8OjuKPC0_kGFZkXNgeodUiad3l-xvKfqiTxrqO_oazCAoh68V_Z2--1-5X0Af4_hp6vnMG_t_APr2lDBwfC2VoJLWhVMrnW1Jxtm5ELfTyj7fAF0rJ5ppt_ymI4o_61481I4bmBHVNhVfaPm15-cWQq8UBU0si9TQ0fKBuR5DzAC-7x9UOPCJwl_XPhGKh-1IWKS-fI6KvSzovEWOXDKV0TjDB72q8Lx9CSoMJXVhuTCq9fEek9PjAQj7nCjvJ45lfXxsa8d4_ZVTCDbVHkpss9QCXntvAYmM0GIIw23dSehe3r-jOWEuHK0Ltz_HiqA"
+    } ],
+    "body" : { },
+    "url" : "#base_url/#api_base/oauth/token"
+  }
+}

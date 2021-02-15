@@ -1,0 +1,42 @@
+{
+
+   "request":{
+
+      "method":"POST",
+
+      "header":[{"code":"409n"}],
+
+      "body":{
+  "username": "username",
+  "password": "password",
+  "paymentInfoSignature": "paymentInfo",
+  "additionalUserInfo": {
+    "email": "email",
+    "firstName": "firstName",
+    "lastName": "lastName",
+    "mobileNumber": "mobileNumber",
+    "address": {
+      "addressLine1": "addressLine1",
+      "addressLine2": "addressLine2",
+      "town": "town",
+      "country": "country",
+      "postCode": "postCode"
+    }
+  },
+  "paymentInfo": {
+    "paymentOptions": [
+      {
+        "paymentOption": {},
+        "auditInfo": {
+          "verifiedBy": "verifiedBy",
+          "verificationDateTime": "verificationDateTime"
+        }
+      }
+    ]
+  }
+},
+      "url":"http://localhost:4391/apis/requesttopay/v1.0/app/user/messages"
+
+   }
+
+}

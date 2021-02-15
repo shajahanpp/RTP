@@ -1,0 +1,14 @@
+{
+  "request" : {
+    "method" : "PUT",
+    "header" : [ {
+      "pid" : "carol#repository1.rtp.fasterpaymentsdemo.co.uk"
+    }, {
+      "block" : "false"
+    }, {
+      "Authorization" : "#TOKEN"
+    } ],
+    "body" : { },
+    "url" : "#base_url/#api_base/user/blocked"
+  }
+}

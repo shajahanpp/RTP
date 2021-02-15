@@ -1,0 +1,9 @@
+{
+  "testStatus" : "FAILED",
+  "tableResultList" : [ {
+    "tableName" : "db_example.blocked_user",
+    "validationStatus" : "FAILED",
+    "differenceList" : null,
+    "failedMessage" : "No Database Records based on  or DataBase Connection Error"
+  } ]
+}

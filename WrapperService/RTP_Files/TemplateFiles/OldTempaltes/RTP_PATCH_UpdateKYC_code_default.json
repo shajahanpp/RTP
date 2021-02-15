@@ -1,0 +1,29 @@
+{
+
+   "request":{
+
+      "method":"POST",
+
+      "header":[{"code":"default"}],
+
+      "body":{
+    
+  "username": "username",
+  "paymentInfoSignature": "paymentInfoSignature",
+  "paymentInfo": {
+    "paymentOptions": [
+      {
+        "paymentOption": {},
+        "auditInfo": {
+          "verifiedBy": "verifiedBy",
+          "verificationDateTime": "2017-07-21T17:32:28Z"
+        }
+      }
+    ]
+  }
+},
+"url": "http://localhost:4391/apis/requesttopay/v1.0/app/user"
+
+   }
+
+}

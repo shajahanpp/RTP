@@ -1,0 +1,14 @@
+{
+
+   "request":{
+
+      "method":"GET",
+
+     "header":[{"code":"401"}],
+
+      
+      "url":"http://localhost:4391/apis/requesttopay/v1.0/app/data/user/messages/bulk"
+
+   }
+
+}

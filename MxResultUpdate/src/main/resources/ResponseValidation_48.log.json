@@ -1,0 +1,4 @@
+{
+  "validationStatus" : "FAILED",
+  "differenceList" : [ "Node : $..msg Expected Value : Unauthorized  ; Actual Value : This username is already registered", "Node : $..code Expected Value : 401  ; Actual Value : 409", "Node : $..error_description Expected Value : Unauthorized  ; Actual Value : []" ]
+}

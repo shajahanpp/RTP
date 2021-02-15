@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbconnection>
+<connectionstring>jdbc:sqlserver://da-dev-tmp02:1433;databaseName=BPS;user=bpsadmin;password=Experian1234!!</connectionstring>
+</dbconnection>

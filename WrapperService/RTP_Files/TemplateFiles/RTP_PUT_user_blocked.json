@@ -1,0 +1,19 @@
+{
+
+   "request":{
+
+      "method":"PUT",
+
+      "header":[
+	  {"pid" : "$pid"},
+	  {"block": "$blockFlag"},
+	  {"Authorization":"#TOKEN"}
+	  ],
+
+      "body":{
+},
+      "url":"#base_url/#api_base/user/blocked"
+
+   }
+
+}

@@ -1,0 +1,12 @@
+{
+  "request" : {
+    "method" : "GET",
+    "header" : [ {
+      "Content-Type" : "x-www-form-urlencoded"
+    }, {
+      "Authorization" : "#TOKEN"
+    } ],
+    "body" : { },
+    "url" : "https://repository1.rtp.fasterpaymentsdemo.co.uk/apis/requesttopay/v1.0.1/app/user"
+  }
+}

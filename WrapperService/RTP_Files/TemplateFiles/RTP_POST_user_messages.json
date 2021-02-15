@@ -1,0 +1,102 @@
+{
+
+   "request":{
+
+      "method":"POST",
+
+      "header":[
+	  {"Authorization":"#TOKEN"}
+	  ],
+
+      "body":{
+  "envelope": {
+    "messageHeader": {
+      "messageId": "111",
+      "recipientPid": "$recipientPid",
+      "senderName": "Biller Name",
+      "senderPid": "$senderPid",
+      "messageDateTime": "2019-08-19T12:47:00.0160594+01:00"
+    },
+    "threadHeader": {
+      "profile": "requestToPay",
+      "threadPriority": "high",
+      "subject": "Payment required",
+      "threadId": "biller#repository1.rtp.fasterpaymentsdemo.co.uk-payer#repository1.rtp.fasterpaymentsdemo.co.uk-111",
+      "originatorPid": "$originatorPid",
+      "respondentPid": "$recipientPid",
+      "threadDateTime": "2019-08-19T12:47:00.0160594+01:00"
+    },
+    "messageBody": {
+      "messageType": "RequestToPay",
+      "messageBody": "Payement required for training.",
+      "endToEndIdentification": "12345-ABCDE-201907",
+      "creditor": {
+        "name": "Collecting"
+      },
+      "paymentOptions": [
+        {
+          "paymentMethod": "PRT",
+          "creditorAccount": {
+            "identification": {
+              "other": {
+                "id": "mystring"
+              },
+              "IBAN": "mystring"
+            },
+            "currency": "GPB",
+            "name": "mystring"
+          },
+          "creditorAgent": {
+            "financialInstitutionId": {
+              "clearingSystemMemberId": {
+                "clearingSystemId": {
+                  "code": "strin"
+                },
+                "memberId": "mystring"
+              },
+              "BICFI": "mystring"
+            }
+          },
+          "creditorPortal": {
+            "electronicAddress": "https://www.requesttopay.co.uk",
+            "basketId": "mystring"
+          }
+        }
+      ],
+      "dueDate": "2019-08-23T00:00:00Z",
+      "amount": {
+        "dueAmount": 150.0,
+        "currency": "GBP"
+      },
+      "remittanceInformation": {
+        "structured": {
+          "creditorReferenceInformation": {
+            "reference": "12345-ABCDE-201907"
+          },
+          "billName": "Bill for training",
+          "billingPeriod": {
+            "billingPeriodFrom": "2019-07-01T00:00:00Z",
+            "billingPeriodTo": "2019-07-31T00:00:00Z"
+          }
+        }
+      },
+      "relatedRemittanceInformation": {
+        "remittanceIdentification": "12345-ABCDE-201907"
+      }
+    }
+  },
+  "messageMeta": {
+    "deliveryPath": {
+      "fromID": "string",
+      "senderCert": "string",
+      "timestamp": "2017-07-21T17:32:28Z",
+      "toID": "payer"
+    },
+    "numMessages": 0,
+    "signature": "string"
+  }
+},
+      "url":"#base_url/#api_base/user/messages"
+
+   }
+   }

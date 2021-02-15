@@ -1,0 +1,24 @@
+{
+  "request" : {
+    "method" : "POST",
+    "header" : [ ],
+    "body" : {
+      "username" : "tom",
+      "password" : "summer20",
+      "additionalUserInfo" : {
+        "email" : "thomas123@gmail.com",
+        "firstName" : "tom",
+        "lastName" : "tom",
+        "mobileNumber" : "7767676565",
+        "address" : {
+          "addressLine1" : "James street",
+          "addressLine2" : "Richmond",
+          "town" : "London",
+          "country" : "UK",
+          "postCode" : "TW3 1NJ"
+        }
+      }
+    },
+    "url" : "#base_url/#api_base/user"
+  }
+}

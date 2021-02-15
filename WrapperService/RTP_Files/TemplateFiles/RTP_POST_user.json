@@ -1,0 +1,28 @@
+{
+   "request":{
+
+      "method":"POST",
+
+      "header":[],
+      "body":{
+  "username": "$username",
+  "password": "$password",
+  "additionalUserInfo": {
+    "email": "$email",
+    "firstName": "$firstName",
+    "lastName": "$lastName",
+    "mobileNumber": "7767676565",
+    "address": {
+      "addressLine1": "$addressLine1",
+      "addressLine2": "Richmond",
+      "town": "London",
+      "country": "$country",
+      "postCode": "TW3 1NJ"
+    }
+  }
+},
+      "url":"#base_url/#api_base/user"
+
+   }
+
+}

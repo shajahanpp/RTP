@@ -1,0 +1,28 @@
+{
+   "request":{
+
+      "method":"PATCH",
+
+      "header":[{"Authorization":"#TOKEN"}],
+
+      "body":{
+  
+  "username": "$username",
+  "paymentInfoSignature": "$pid",
+  "paymentInfo": {
+    "paymentOptions": [
+      {
+        "paymentOption": {},
+        "auditInfo": {
+          "verifiedBy":  "string",
+          "verificationDateTime": "2017-07-21T17:32:28Z"
+        }
+      }
+    ]
+  }
+
+},
+      "url":"#base_url/#api_base/user/kyc"
+
+   }
+}

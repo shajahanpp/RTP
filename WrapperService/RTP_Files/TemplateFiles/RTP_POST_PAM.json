@@ -1,0 +1,21 @@
+{
+
+   "request":{
+
+      "method":"POST",
+
+      "header":[{"Authorization":"#TOKEN"}],
+
+      "body":{
+		  "status": "requested",
+		  "pamId": "$pamId",
+		  "requestMessage": "The field requestMessage can contain an optional message to accompany the PAM request.",
+		  "billerName": "$billerName",
+		  "payerId": "$payerId",
+		  "billerId": "$billerId"
+},
+      "url":"#base_url/#api_base/user/authorisation-requests/"
+
+   }
+
+}

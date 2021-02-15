@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "header" : [ {
+      "Authorization" : "#TOKEN"
+    } ],
+    "body" : { },
+    "url" : "#base_url/#api_base/user/blocked"
+  }
+}

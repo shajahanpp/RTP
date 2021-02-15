@@ -1,0 +1,5 @@
+#!groovy
+@Library('devopspaas-pipeline-library@release/1.0.0')
+@Library('devopspaas-pipeline-java-library@release/1.0.0') _
+
+devopspaasphasedecider(language: 'java', executeAgents: true, configurationFile: 'Jenkinsfile.exp.yaml', agentLabel: 'Rhel-Linux')

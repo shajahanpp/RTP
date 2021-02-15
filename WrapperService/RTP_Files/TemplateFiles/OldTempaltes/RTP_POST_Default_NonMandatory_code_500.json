@@ -1,0 +1,60 @@
+{
+
+   "request":{
+
+      "method":"POST",
+
+     "header":[{"code":"500"}],
+
+      "body":[
+  {
+    "envelope": {
+      "threadHeader": {
+        "profile": "requestToPay",
+        "subject": "string",
+        "threadId": "user1#abc.com-user2#xyz.com-1544097965000-MTAwOTIzOQ==",
+        "originatorPid": "user1#abc.com",
+        "respondentPid": "user2#abc.com",
+        "threadDateTime": "2017-07-21T17:32:28Z",
+        "threadPriority": "high"
+      },
+      "messageHeader": {
+        "messageId": "1544097335000-MTAwOTIzOQ==",
+        "senderName": "string",
+        "senderPid": "user1#abc.com",
+        "recipientPid": "user2#abc.com",
+        "messageDateTime": "2017-07-21T17:32:28Z"
+      },
+      "messageBody": {},
+      "errorBody": {
+        "referenceMessageId": "1544097335000-MTAwOTIzOQ==",
+        "code": "string",
+        "message": "string",
+        "failureReason": "string"
+      }
+    },
+    "messageMeta": {
+      "deliveryPath": {
+        "fromID": "string",
+        "senderCert": "string",
+        "timestamp": "2017-07-21T17:32:28Z",
+        "toID": "string"
+      },
+      "numMessages": 0,
+      "signature": "string"
+    },
+    "attachments": [
+      {
+        "fileName": "string",
+        "contentType": "DPDF",
+        "signature": "string",
+        "content": "string"
+      }
+    ]
+  }
+],
+      "url":"http://localhost:4391/apis/requesttopay/v1.0/app/user/messages/bulk"
+
+   }
+
+}

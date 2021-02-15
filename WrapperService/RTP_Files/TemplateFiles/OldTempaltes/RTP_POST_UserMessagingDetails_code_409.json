@@ -1,0 +1,58 @@
+{
+
+   "request":{
+
+      "method":"POST",
+
+      "header":[{"code":"409"}],
+
+      "body":{
+    "envelope": {
+    "threadHeader": {
+        "profile": "profile",
+        "subject": "subject",
+        "threadId": "threadId",
+        "originatorPid": "originatorPid",
+        "respondentPid": "respondentPid",
+        "threadDateTime": "threadDateTime",
+        "threadPriority": "threadPriority"
+    },
+    "messageHeader": {
+      "messageId": "messageId",
+        "senderName": "senderName",
+        "senderPid": "senderPid",
+        "recipientPid": "recipientPid",
+        "messageDateTime": "messageDateTime"
+    },
+    "messageBody": {},
+    "errorBody": {
+        "referenceMessageId": "referenceMessageId",
+        "code": "code",
+        "message": "message",
+        "failureReason": "failureReason"
+    }
+  },
+  "messageMeta": {
+    "deliveryPath": {
+        "fromID": "fromID",
+        "senderCert": "senderCert",
+        "timestamp": "timestamp",
+        "toID": "toID"
+    },
+    "numMessages": "numMessages",
+      "signature": "signature"
+  },
+  "attachments": [
+    {
+      "fileName": "fileName",
+        "contentType": "contentType",
+        "signature": "signature",
+        "content": "content"
+    }
+  ]
+},
+      "url":"http://localhost:4391/apis/requesttopay/v1.0/app/user"
+
+   }
+
+}

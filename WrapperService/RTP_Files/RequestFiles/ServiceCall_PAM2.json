@@ -1,0 +1,12 @@
+{
+  "request" : {
+    "method" : "PATCH",
+    "header" : [ {
+      "Authorization" : "#TOKEN"
+    } ],
+    "body" : {
+      "status" : "accepted"
+    },
+    "url" : "#base_url/#api_base/user/authorisation-requests/PAM-2179629333002-cGFtVXVpZA=="
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbconnection>
+<connection>jdbc:mysql://10.188.31.79:3306/experian_webautomationui</connection>
+	<username>root</username>
+<password>root</password>
+</dbconnection>

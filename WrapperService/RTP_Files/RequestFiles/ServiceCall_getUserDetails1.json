@@ -1,0 +1,12 @@
+{
+  "request" : {
+    "method" : "GET",
+    "header" : [ {
+      "Content-Type" : "x-www-form-urlencoded"
+    }, {
+      "Authorization" : "#TOKEN"
+    } ],
+    "body" : { },
+    "url" : "#base_url/#api_base/user"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "testStatus" : "PASSED",
+  "tableResultList" : [ {
+    "tableName" : "db_example.user_registered",
+    "validationStatus" : "PASSED",
+    "differenceList" : [ ],
+    "failedMessage" : null
+  } ]
+}

@@ -1,0 +1,1 @@
+{"code": 400, "msg": "The query cannot be parsed. The token '<EOF>' at column 5 on line 1 cannot be parsed"}
